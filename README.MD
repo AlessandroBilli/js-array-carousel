@@ -1,5 +1,10 @@
 #  js-array-carousel
 
+## Descrizione 
+Carosello fatto con **JS**, **CSS** **HTML**, che permetterà di vedere una serie di immagini con una struttura a scorrimento proprio come un vero carosello. 
+
+
+
 
 ## MILESTONE 1
 Rimuoviamo tutto il markup statico e inseriamo tutte le immagini dinamicamente servendoci dell'array fornito e un semplice ciclo for che concatena un template literal.
@@ -13,3 +18,4 @@ Aggiungere la visualizzazione di tutte le thumbnails sulla destra dell’immagin
 Al click delle frecce, oltre al cambio di immagine attiva, gestire il cambio di miniatura attiva.
 BONUS 3:
 Al click sulla thumbnail, viene visualizzata l'immagine selezionata;
+
