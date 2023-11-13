@@ -4,12 +4,12 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     
-    const immagini = ["img/01.jpg", "img/02.jpg", "img/03.jpg", "img/04.jpg.","img/05.jpg."];
-    const indiceCorrente = 0;
+    let immagini = ["img/01.jpg", "img/02.jpg", "img/03.jpg", "img/04.jpg.","img/05.jpg."];
+    let indiceCorrente = 0;
 
-    const items = document.querySelectorAll('.item');
-    const prevButton = document.querySelector('.prev');
-    const nextButton = document.querySelector('.next');
+    let items = document.querySelectorAll('.item');
+    let prevButton = document.querySelector('.prev');
+    let nextButton = document.querySelector('.next');
 
     
     function inizializzaCarosello() {
